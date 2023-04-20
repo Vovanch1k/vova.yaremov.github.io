@@ -1,0 +1,408 @@
+/* Стилі для десктопної версії (більше 1200px) */
+
+
+header h1 { /* заголовок */
+    font-weight: 400;
+    font-size: 50px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.anim_text:hover {
+    box-shadow: 3px 3px 1px lightgray;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 1200px) {
+    header {
+        padding: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-align-last: center;
+    }
+
+    /*---------------------------------- _NONE_ */
+    .otstup {
+        display: none;
+    }
+
+    /*----------------------------------  main text (right)*/
+    .main_text {
+        width: 350px;
+        height: 560px;
+        display: flex;
+        background-color: whitesmoke;
+        border: 2px solid lightgray;
+        float: right;
+        flex-direction: column;
+    }
+
+    #text_1, #text_2, #text_3, #text_4, #text_5, #text_6 {
+        width: 220px;
+        height: 30px;
+        background-color: whitesmoke;
+        border: 2px solid lightgray;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        border-radius: 11px;
+    }
+
+    .text_0 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+
+
+    /*---------------------------------- polzunok */
+    .polzunok {
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text_polzunok {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------------------------- img */
+    .main_photo {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .photo {
+        flex-direction: column;
+        width: 306px;
+        height: 170px;
+        padding: 15px 13px;
+        display: block;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .decor_text {
+        height: 3px;
+        width: 306px;
+        background: lightgray;
+        margin-left: 30px
+    }
+    .none_mobile {
+        margin-left: 30px;
+        font-size: 23px
+    }
+    /*----------------------------------*/
+    .photo_1:hover, .photo_2:hover, .photo_3:hover, .photo_4:hover, .photo_5:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+    /*------------------------------------*/
+    footer {
+        font-size: 20px;
+        margin-left: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer_1 {
+        display: flex;
+        position: relative;
+    }
+
+    .footer_3 {
+        float: right;
+    }
+
+    footer img {
+        width: 15px;
+    }
+}
+
+/* Стилі для планшетної версії (730px - 1200px) ----------------------------------*/
+@media (min-width: 730px) and (max-width: 1200px) {
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 { /* заголовок */
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    /*----------------------------------*/
+    #text_1, #text_2, #text_3, #text_4, #text_5, #text_6 {
+        background-color: whitesmoke;
+        border: 2px solid lightgray;
+        width: 220px;
+        height: 30px;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #text_1 {
+        position: absolute;
+        margin-left: -350px;
+    }
+
+    #text_2 {
+        position: absolute;
+        margin-left: -115px;
+    }
+
+    #text_3 {
+        position: absolute;
+        margin-left: 120px;
+    }
+
+    #text_4 {
+        position: absolute;
+        margin-left: -350px;
+        margin-top: 40px;
+    }
+
+    #text_5 {
+        position: absolute;
+        margin-left: -115px;
+        margin-top: 40px;
+    }
+
+    #text_6 {
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+
+    .text_0 {
+        display: none;
+    }
+
+    .polzunok {
+        display: none;
+    }
+
+    .text_polzunok, .name_food, .kaloriy {
+        display: none;
+    }
+
+    /*----------------------------------*/
+    .main_photo {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .photo {
+        flex-direction: column;
+        width: 180px;
+        height: 100px;
+        padding: 15px 13px;
+        display: block;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .photo_1:hover, .photo_2:hover, .photo_3:hover, .photo_4:hover, .photo_5:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    /*----------------------------------*/
+    footer {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .footer_1 {
+        display: flex;
+        position: relative;
+    }
+
+    .footer_3 {
+        float: right;
+    }
+
+    footer img {
+        width: 15px;
+    }
+
+    .decor_text {
+        height: 3px;
+        width: 180px;
+        background: lightgray;
+        margin-left: 30px
+    }
+    .none_mobile {
+        margin-left: 30px;
+        text-align: center;
+        font-size: 23px
+    }
+    /*----------------------------------*/
+    .otstup {
+        margin-top: 70px;
+    }
+}
+
+/* Стилі для мобільної версії (375px - 730px) ----------------------------------*/
+@media (max-width: 730px) {
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 { /* заголовок */
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    /*-----------------------------*/
+    #text_1, #text_2, #text_3, #text_4, #text_5, #text_6 {
+        display: flex;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        border: 2px solid lightgray;
+        width: 200px;
+        height: 30px;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #text_1 {
+        position: absolute;
+        margin-left: -110px;
+    }
+
+    #text_2 {
+        position: absolute;
+        margin-left: 105px;
+    }
+
+    #text_3 {
+        position: absolute;
+        margin-left: -110px;
+        margin-top: 40px;
+    }
+
+    #text_4 {
+        position: absolute;
+        margin-left: 105px;
+        margin-top: 40px;
+    }
+
+    #text_5 {
+        position: absolute;
+        margin-left: -110px;
+        margin-top: 80px;
+    }
+
+    #text_6 {
+        position: absolute;
+        margin-left: 105px;
+        margin-top: 80px;
+    }
+
+    .text_0 {
+        display: none;
+    }
+
+    .polzunok {
+        display: none;
+    }
+
+    .text_polzunok {
+        display: none;
+    }
+
+    /*-----------------------------*/
+    .main_text {
+        height: 50px;
+        width: 200px;
+        border-spacing: 15px 15px;
+    }
+
+    footer {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .footer_1 {
+        display: flex;
+        position: relative;
+    }
+
+    .footer_2 {
+        display: flex;
+        position: relative;
+    }
+
+    .footer_3 {
+        display: flex;
+        position: relative;
+    }
+
+    footer img {
+        width: 15px;
+    }
+
+    .photo {
+        width: 400px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        padding: 10px 0;
+    }
+
+    .otstup {
+        margin-top: 40px;
+    }
+
+    .none_mobile {
+        display: none;
+    }
+
+    .decor_text {
+        display: none;
+    }
+}
